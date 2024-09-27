@@ -235,7 +235,7 @@ const Navbar = () => {
               </>
             ) : (
               <>
-                Don't have an account? <a href="#" onClick={toggleMode}>Sign Up</a>
+                Don&apos;t have an account? <a href="#" onClick={toggleMode}>Sign Up</a>
               </>
             )}
           </p>
