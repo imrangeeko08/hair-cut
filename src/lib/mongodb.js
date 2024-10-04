@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = "mongodb://localhost:27017/hair-cut";
+// Include the database name in the connection string
+const MONGODB_URI = "mongodb+srv://imrangeekologix:xv6BQ7ciy8dvurUP@cluster0.6es0k.mongodb.net/hair-cut?retryWrites=true&w=majority&appName=Cluster0";
 
 if (!MONGODB_URI) {
     throw new Error('Please define the MONGODB_URI environment variable in .env.local');
